@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.drivernotebeta.MainActivity">
+
+    <TextView
+        android:id="@+id/textExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Затраты" />
+
+    <EditText
+        android:id="@+id/editMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textMileage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пробег" />
+
+    <EditText
+        android:id="@+id/editKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textCosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Расход л/100км" />
+
+    <EditText
+        android:id="@+id/lkm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textCosts2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Расход км/л" />
+
+    <EditText
+        android:id="@+id/kml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonreFueling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запрака" />
+
+    <Button
+        android:id="@+id/buttonRepairs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ремонт" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Другое" />
+
+</LinearLayout>
