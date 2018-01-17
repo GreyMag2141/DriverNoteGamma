@@ -8,10 +8,13 @@
     tools:context="com.example.user.drivernotebeta.MainActivity">
 
     <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
         android:id="@+id/textExpenses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Затраты" />
+        android:text="Затраты за все время" />
 
     <EditText
         android:id="@+id/editMoney"
@@ -21,6 +24,9 @@
         android:inputType="textPersonName" />
 
     <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
         android:id="@+id/textMileage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,6 +40,9 @@
         android:inputType="textPersonName" />
 
     <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
         android:id="@+id/textCosts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -47,6 +56,9 @@
         android:inputType="textPersonName" />
 
     <TextView
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textAlignment="center"
         android:id="@+id/textCosts2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
