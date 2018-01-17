@@ -84,9 +84,9 @@
         android:text="Ремонт" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonLater"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Другое" />
+        android:text="Кнопка" />
 
 </LinearLayout>
